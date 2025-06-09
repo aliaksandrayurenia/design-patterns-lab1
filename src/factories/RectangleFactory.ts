@@ -1,6 +1,6 @@
 import { ShapeFactory } from './ShapeFactory';
 import { RectangleValidator } from '../validators/RectangleValidator';
-import { Rectangle } from '../models/Rectangle';
+import { Rectangle } from '../entities/Rectangle';
 
 export class RectangleFactory extends ShapeFactory {
   createShape(data: string): Rectangle | null {

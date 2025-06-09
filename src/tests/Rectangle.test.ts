@@ -1,4 +1,4 @@
-import { Rectangle } from '../models/Rectangle';
+import { Rectangle } from "../entities/Rectangle";
 import { Point } from '../entities/Point';
 
 describe('Rectangle', () => {

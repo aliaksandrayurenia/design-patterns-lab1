@@ -1,6 +1,6 @@
 import { ShapeFactory } from './ShapeFactory';
 import { PyramidValidator } from '../validators/PyramidValidator';
-import { Pyramid } from '../models/pyramid';
+import { Pyramid } from '../entities/Pyramid';
 
 export class PyramidFactory extends ShapeFactory {
   createShape(data: string): Pyramid | null {
